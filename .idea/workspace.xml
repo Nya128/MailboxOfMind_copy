@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5fd933f5-d4b2-4d36-bcdd-b52c0298a12d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/config/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/config/BaseResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/domain/Destination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/domain/Recipient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/dto/request/LettersCreateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/dto/request/LettersSaveSecondRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/dto/request/RecipientSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/dto/response/LettersSaveResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/dto/response/RecipientSaveResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/repository/RecipientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/service/RecipientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/CoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/CoreApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/config/auth/LoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/config/auth/LoginUserArgumentResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/config/auth/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/config/auth/dto/OAuthAttributes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/config/auth/dto/SessionUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/controller/LettersApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/controller/LettersApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/domain/Letter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/domain/Letter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/domain/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/domain/user/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/dto/request/LettersSaveRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/dto/request/LettersSaveFirstRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/dto/response/LettersListResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/dto/response/LettersListResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/dto/response/LettersResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/dto/response/LettersResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/repository/LettersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/repository/LettersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/service/CustomOAuth2UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/service/LettersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/main/java/mailbox/core/service/LetterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/resources/templates/social-success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/main/resources/templates/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/test/java/mailbox/core/controller/LettersApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/test/java/mailbox/core/controller/LettersApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shuun/core/src/test/java/mailbox/core/repository/LettersRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shuun/core/src/test/java/mailbox/core/repository/LettersRepositoryTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/shuun/core">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BNcwuYBMHa6x78VV9zMkr0oSKA" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/82102/Documents/UMC_2기/마음의우체통/MailboxOfMind_copy/shuun/core/src/main/java/mailbox/core/config",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "1d2dfe7cbec4cb85764de7dce500cd05"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="mailbox.core.dto.request" />
+      <recent name="mailbox.core.dto.response" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\82102\Documents\UMC_2기\마음의우체통\MailboxOfMind_copy\shuun\core\src\main\java\mailbox\core\config" />
+      <recent name="C:\Users\82102\Documents\UMC_2기\MailboxOfMind_BackEnd\shuun\core\src\main\java\mailbox\core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\82102\Documents\UMC_2기\마음의우체통\MailboxOfMind_copy\shuun\core\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mailbox.core.repository" />
+      <recent name="mailbox.core.service" />
+      <recent name="mailbox.core.dto.request" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="core.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mailbox.core.CoreApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mailbox.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CoreApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fd933f5-d4b2-4d36-bcdd-b52c0298a12d" name="Changes" comment="" />
+      <created>1656750225102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656750225102</updated>
+      <workItem from="1656750226600" duration="9712000" />
+      <workItem from="1660666492713" duration="33000" />
+      <workItem from="1661011919834" duration="123000" />
+      <workItem from="1661173781923" duration="54346000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
